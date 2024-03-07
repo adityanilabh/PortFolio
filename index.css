@@ -1,0 +1,74 @@
+
+.header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin: 0;
+  align-items: center;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  position:sticky;
+  top:0;
+}
+
+.header_PortfolioName{
+ background-color: blue;
+ width:30%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ padding-left: 20px;
+}
+
+.header_NavLinks{
+ background-color: pink;
+ width: 70%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ padding-right: 20px;
+}
+
+.header_NavLinks a{
+ color: white;
+ text-decoration: none;
+ padding: 0 10px;
+ margin-right: 10px; 
+}
+
+.header_NavLinks a:last-child {
+ margin-right: 0; 
+}
+
+.centralPart {
+  padding-top: 80px;
+}
+
+.centralPart > div {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.centralPart_Home {
+  background-color: #f9f9f9;
+}
+
+.centralPart_About {
+  background-color: #e9e9e9;
+}
+
+.centralPart_Projects {
+  background-color: #d9d9d9;
+}
+
+.centralPart_Achievements {
+  background-color: #c9c9c9;
+}
+
+.centralPart_ContactMe {
+  background-color: #b9b9b9;
+}
